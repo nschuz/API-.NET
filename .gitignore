@@ -1,0 +1,66 @@
+# Excluir bin y obj folders
+bin/
+obj/
+
+
+# Excluir archivos de compilación
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.build.cs
+
+# Excluir configuraciones de usuario
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Excluir archivos de depuración y log
+*.log
+*.lock.json
+*.cache
+*.vs/
+.vscode/
+
+# Excluir paquetes NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Excluir directorios y archivos de publicación
+publish/
+publishoutput/
+release/
+releases/
+build/
+artifacts/
+
+# Excluir archivos generados por Docker
+deployment/Dockerfile
+deployment/entrypoint.sh
+docker-compose.yml
+
+# Excluir archivos de migraciones generados automáticamente
+Migrations/*Designer.cs
+Migrations/*ModelSnapshot.cs
+
+# Excluir carpetas de configuración de entorno y preferencias locales
+launchSettings.json
+
+# Excluir archivos de respaldo y temporales
+*.tmp
+*.bak
+*.swp
+*.orig
+*.old
+
+# Excluir carpetas de cache de NuGet
+.nuget/
